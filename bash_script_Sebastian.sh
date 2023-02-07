@@ -22,8 +22,8 @@ echo -e "**********************************************\n"
 for FILE in *.txt 
 do 
 	echo "Filename is:" $FILE 
-	echo -e "First line:\n" $(head -n 1 $FILE)"\n"  
-	echo -e "last line:\n"$(tail -n 1 $FILE)"\n\n"   
+	echo -e "\tFirst line:\n" $(head -n 1 $FILE)"\n"  
+	echo -e "\tlast line:\n"$(tail -n 1 $FILE)"\n\n"   
 	echo "Next file"
 done
 
